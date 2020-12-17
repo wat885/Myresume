@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Langar', cursive;
+}
+
+img{
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #008CBA;
+}
+h2{
+  font-size: 40px;
+  margin: 0;
+}
+h3{
+  font-size: 30px;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(168, 159, 159);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+header {
+  background-color: #008CBA;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+hr{
+  height:2px;
+  border-width:0;
+  background-color:#008CBA;
+
+}
+
+/* h3{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 5px;
+  border-radius:5px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+h3:hover {
+  background-color: #008CBA;
+
+} */
+
+/* p:hover{
+  background-color: #008CBA;
+  color: white;
+  text-align: center;
+  font-size: 1.em;
+} */
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+
+  
+}
+
+.skill-set li:hover
+{
+	background:#008CBA;
+  /* background:#3498db; */
+  background: #1C6EA4;
+  background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 51%, #144E75 100%);
+  background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 51%, #144E75 100%);
+  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 51%, #144E75 100%);
+}
+
+
+
+
+.bold{
+  font-weight: bold;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+
+    /* background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 51%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 51%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 51%, #144E75 100%); */
+
+}
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    text-align: right;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+}
+
+
+
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75{
+    width: 100%;
+     margin-top: 0;
+    text-align: left;
+    padding-left: 0;
+  }
+  .col-75{
+    padding-left: 30px;
+  }
+  .col-25{
+    padding-left: 10px;
+  }
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h3{
+    width: 100%;
+  }
+  img{
+    width: 200px;
+  }
+
+
+}
